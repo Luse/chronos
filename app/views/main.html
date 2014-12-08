@@ -1,0 +1,18 @@
+<div class="wrapper container-fluid">
+  <div class="jumbotron col-md-12">
+    <div class="tid">
+      <h2>Local Time:</h2>
+      <h1>{{ localClock }}</h1>
+      <h2>{{zonedata.timezoneSearch}} Time:</h2>
+    <h1>{{ remoteClock }}</h1>
+
+      <div class="col-md-12">
+
+        <div class="input-group input-group-lg">
+          <span class="input-group-addon">Timezone:</span>
+          <input class="form-control" placeholder="Input Capitol or Timezone" type="text" auto-complete ui-items="all-zones" ng-model="zonedata.timezoneSearch">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
